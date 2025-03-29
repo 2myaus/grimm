@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Panels</title>
+  <link rel="stylesheet" type="text/css" href="standard.css" />
+  <style>
+    body {
+      background-color: var(--base);
+      color: var(--text);
+      font-family: mono, sans-serif;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .panel {
+      width: 30vw;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: var(--surface);
+      color: #000;
+    }
+
+    .panel .panel{
+      width: 20vw;
+      background-color: var(--overlay);
+    }
+
+    .text-primary { color: var(--text); }
+    .text-secondary { color: var(--subtle); }
+    .text-tertiary { color: var(--muted); }
+
+    .keyword { color: var(--dynastyblossom); }
+    .type { color: var(--desire); }
+    .operator { color: var(--bloodsalmon); }
+    .variable { color: var(--mask); }
+    .string { color: var(--strawberry); }
+    .parameter { color: var(--lithium); }
+    .number { color: var(--mask); }
+    .separator { color: var(--lithium); }
+
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <p class="text-primary">Primary Text</p>
+    <p class="text-secondary">Secondary Text</p>
+    <p class="text-tertiary">Tertiary Text</p>
+    <div class="panel">
+      <p class="text-primary">Primary Text</p>
+      <p class="text-secondary">Secondary Text</p>
+      <p class="text-tertiary">Tertiary Text</p>
+    </div>
+    <pre>
+        <span class="keyword">if</span><span class="separator">(</span><span class="variable">argc</span> <span class="operator">==</span> <span class="number">0</span><span class="separator">) { </span><span class="keyword">return</span><span class="separator">; }</span>
+        <span class="type">char</span><span class="operator"> *</span><span class="variable">first</span><span class="operator"> = </span><span class="variable">argv</span><span class="separator">[</span><span class="number">0</span><span class="separator">];</span>
+        <span class="keyword">printf</span><span class="separator">(</span><span class="string">"%s_grimm"</span><span class="separator">, </span><span class="variable">first</span><span class="separator">);</span>
+    </pre>
+  </div>
+</body>
+</html>
+

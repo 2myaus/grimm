@@ -1,0 +1,30 @@
+:root {
+  /* Base colors */
+  --base: #07060c; /* Primary background, for focused panels and their extensions */
+  --surface: #010100; /* Secondary background, for indicators and secondary panels */
+  --overlay: #160201; /* Tertiary background, for temporary panels */
+
+  /* Text colors */
+  --text: #ff2f43; /* Primary foreground, for text, active content [variables] */
+  --subtle: #8f2724; /* Secondary foreground, for inactive content [operators] */
+  --muted: #60333a; /* Tertiary foreground, for disabled/unfocused text [comments] */
+
+  /* Misc colors */
+  --blackcherry: #32141c;
+  --darkcherry: #5f1e24;
+  --bloodsalmon: #cf443d;
+  --dynastyblossom: #dd5754;
+  --desire: #e6324d;
+  --strawberry: #f99d9e;
+
+  --charcoal: #2e272f;
+  --maplegalla: #805a59;
+  --lithium: #939391;
+  --mask: #fbeee5;
+
+  --nocturne: #080e1c;
+  --eclipse: #121524;
+  --splotch: #202636;
+  --grapebleach: #543e53;
+  --boundary: #594957;
+}
