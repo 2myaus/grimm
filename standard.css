@@ -10,9 +10,8 @@
   --fg-main3: #f75c6c;
   --fg-warn: #f7c7b7; /* Warnings */
   --fg-error: #d00e0c; /* Errors */
-  --fg-4: #d0d0d0; /* Inactive content */
-  --fg-5: #89363b;
-  --fg-6: #2d2b43; /* Disabled, unfocused text */
+  --fg-info: #ded5c1; /* Info / Numbers */
+  --fg-quiet: #2d2b43; /* Comments, Disabled text */
 
   --blackcherry: #32141c;
   --darkcherry: #5f1e24;

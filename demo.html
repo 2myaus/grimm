@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,28 +25,45 @@
       color: #000;
     }
 
-    .panel .panel{
+    .panel .panel {
       width: 20vw;
       background-color: var(--bg-3);
     }
 
-    .text-1 { color: var(--fg-1); font-weight: bold; }
-    .text-2 { color: var(--fg-2); font-weight: bold; }
-    .text-3 { color: var(--fg-3); }
-    .text-4 { color: var(--fg-4); }
-    .text-5 { color: var(--fg-5); font-weight: bold; }
+    .keyword {
+      color: var();
+    }
 
-    .keyword { color: var(--dynastyblossom); }
-    .type { color: var(--desire); }
-    .operator { color: var(--bloodsalmon); }
-    .variable { color: var(--mask); }
-    .string { color: var(--strawberry); }
-    .parameter { color: var(--lithium); }
-    .number { color: var(--mask); }
-    .separator { color: var(--lithium); }
+    .type {
+      color: var(--desire);
+    }
 
+    .operator {
+      color: var(--bloodsalmon);
+    }
+
+    .variable {
+      color: var(--mask);
+    }
+
+    .string {
+      color: var(--strawberry);
+    }
+
+    .parameter {
+      color: var(--lithium);
+    }
+
+    .number {
+      color: var(--mask);
+    }
+
+    .separator {
+      color: var(--lithium);
+    }
   </style>
 </head>
+
 <body>
   <div class="panel">
     <p style="color: var( --fg-main );">Main</p>
@@ -53,15 +71,18 @@
     <p style="color: var( --fg-main3 );">Main3</p>
     <p style="color: var( --fg-warn );">Warn</p>
     <p style="color: var( --fg-error );">Error</p>
+    <p style="color: var( --fg-info );">1234 Info</p>
+    <p style="color: var( --fg-quiet );">Comment</p>
     <div class="panel">
       <p style="color: var( --fg-main );">Main</p>
+      <p style="color: var( --fg-main2 );">Main2</p>
+      <p style="color: var( --fg-main3 );">Main3</p>
+      <p style="color: var( --fg-warn );">Warn</p>
+      <p style="color: var( --fg-error );">Error</p>
+      <p style="color: var( --fg-info );">1234 Info</p>
+      <p style="color: var( --fg-quiet );">Comment</p>
     </div>
-    <pre>
-        <span class="keyword">if</span><span class="separator">(</span><span class="variable">argc</span> <span class="operator">==</span> <span class="number">0</span><span class="separator">) { </span><span class="keyword">return</span><span class="separator">; }</span>
-        <span class="type">char</span><span class="operator"> *</span><span class="variable">first</span><span class="operator"> = </span><span class="variable">argv</span><span class="separator">[</span><span class="number">0</span><span class="separator">];</span>
-        <span class="keyword">printf</span><span class="separator">(</span><span class="string">"%s_grimm"</span><span class="separator">, </span><span class="variable">first</span><span class="separator">);</span>
-    </pre>
   </div>
 </body>
-</html>
 
+</html>
