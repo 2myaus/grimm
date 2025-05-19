@@ -1,0 +1,20 @@
+scheme: grimm
+author: myaumyau
+base00: "010101" # --bg-1
+base01: "170d18" # --bg-2
+base02: "221523" # --bg-3
+base03: "2d2b43" # --fg-quiet (comments)
+base04: "cc274b" # --fg-main2 (optional subdued fg)
+base05: "f62e3c" # --fg-main (main text)
+base06: "ded5c1" # --fg-info
+base07: "fbeee5" # --mask (lightest accent bg/fg)
+
+base08: "d00e0c" # --fg-error (red, error)
+base09: "f7c7b7" # --fg-warn (orange-ish, warning)
+base0A: "f75c6c" # --fg-main3 (used for variable/attr)
+base0B: "cf443d" # --bloodsalmon (success-like, red-orange)
+base0C: "dd5754" # --dynastyblossom (cyan-ish accent)
+base0D: "e6324d" # --desire (function/method)
+base0E: "f99d9e" # --strawberry (pink highlight)
+base0F: "543e53" # --grapebleach (misc)
+
